@@ -18,6 +18,11 @@
 		DC89139129E9C2DA0016A92A /* PunkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139029E9C2DA0016A92A /* PunkAPIService.swift */; };
 		DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139229E9C2FA0016A92A /* PunkAPIRequest.swift */; };
 		DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139429E9C3B10016A92A /* PunkAPIEndpoint.swift */; };
+		DC89139729E9D36C0016A92A /* PunkBeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139629E9D36C0016A92A /* PunkBeer.swift */; };
+		DC89139929E9EFE80016A92A /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139829E9EFE80016A92A /* Ingredient.swift */; };
+		DC89139B29E9F0180016A92A /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139A29E9F0180016A92A /* Temperature.swift */; };
+		DC89139D29E9F0330016A92A /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139C29E9F0330016A92A /* Method.swift */; };
+		DC89139F29E9F0550016A92A /* UnitValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139E29E9F0550016A92A /* UnitValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		DC89139029E9C2DA0016A92A /* PunkAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIService.swift; sourceTree = "<group>"; };
 		DC89139229E9C2FA0016A92A /* PunkAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIRequest.swift; sourceTree = "<group>"; };
 		DC89139429E9C3B10016A92A /* PunkAPIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIEndpoint.swift; sourceTree = "<group>"; };
+		DC89139629E9D36C0016A92A /* PunkBeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkBeer.swift; sourceTree = "<group>"; };
+		DC89139829E9EFE80016A92A /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DC89139A29E9F0180016A92A /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		DC89139C29E9F0330016A92A /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		DC89139E29E9F0550016A92A /* UnitValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +153,11 @@
 		DC89138A29E645730016A92A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC89139629E9D36C0016A92A /* PunkBeer.swift */,
+				DC89139829E9EFE80016A92A /* Ingredient.swift */,
+				DC89139A29E9F0180016A92A /* Temperature.swift */,
+				DC89139C29E9F0330016A92A /* Method.swift */,
+				DC89139E29E9F0550016A92A /* UnitValue.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -319,11 +334,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC89139D29E9F0330016A92A /* Method.swift in Sources */,
+				DC89139929E9EFE80016A92A /* Ingredient.swift in Sources */,
+				DC89139729E9D36C0016A92A /* PunkBeer.swift in Sources */,
+				DC89139B29E9F0180016A92A /* Temperature.swift in Sources */,
 				DC89139129E9C2DA0016A92A /* PunkAPIService.swift in Sources */,
 				DC89135E29E6319B0016A92A /* ViewController.swift in Sources */,
 				DC89135A29E6319B0016A92A /* AppDelegate.swift in Sources */,
 				DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */,
 				DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */,
+				DC89139F29E9F0550016A92A /* UnitValue.swift in Sources */,
 				DC89135C29E6319B0016A92A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
