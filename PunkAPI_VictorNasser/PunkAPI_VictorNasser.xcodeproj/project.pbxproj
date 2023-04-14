@@ -15,6 +15,9 @@
 		DC89137129E6319D0016A92A /* PunkAPI_VictorNasserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89137029E6319D0016A92A /* PunkAPI_VictorNasserTests.swift */; };
 		DC89137B29E6319D0016A92A /* PunkAPI_VictorNasserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89137A29E6319D0016A92A /* PunkAPI_VictorNasserUITests.swift */; };
 		DC89137D29E6319D0016A92A /* PunkAPI_VictorNasserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89137C29E6319D0016A92A /* PunkAPI_VictorNasserUITestsLaunchTests.swift */; };
+		DC89139129E9C2DA0016A92A /* PunkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139029E9C2DA0016A92A /* PunkAPIService.swift */; };
+		DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139229E9C2FA0016A92A /* PunkAPIRequest.swift */; };
+		DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139429E9C3B10016A92A /* PunkAPIEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DC89137629E6319D0016A92A /* PunkAPI_VictorNasserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunkAPI_VictorNasserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC89137A29E6319D0016A92A /* PunkAPI_VictorNasserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPI_VictorNasserUITests.swift; sourceTree = "<group>"; };
 		DC89137C29E6319D0016A92A /* PunkAPI_VictorNasserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPI_VictorNasserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC89139029E9C2DA0016A92A /* PunkAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIService.swift; sourceTree = "<group>"; };
+		DC89139229E9C2FA0016A92A /* PunkAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIRequest.swift; sourceTree = "<group>"; };
+		DC89139429E9C3B10016A92A /* PunkAPIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,13 @@
 		DC89135829E6319B0016A92A /* PunkAPI_VictorNasser */ = {
 			isa = PBXGroup;
 			children = (
-				DC89135929E6319B0016A92A /* AppDelegate.swift */,
-				DC89135B29E6319B0016A92A /* SceneDelegate.swift */,
-				DC89135D29E6319B0016A92A /* ViewController.swift */,
-				DC89136229E6319D0016A92A /* Assets.xcassets */,
-				DC89136429E6319D0016A92A /* LaunchScreen.storyboard */,
+				DC89138E29E645A80016A92A /* Resources */,
+				DC89138F29E645C10016A92A /* Managers */,
+				DC89138D29E6459A0016A92A /* APIClient */,
+				DC89138C29E6458E0016A92A /* VIewModels */,
+				DC89138B29E645810016A92A /* Views */,
+				DC89138A29E645730016A92A /* Models */,
+				DC89138929E645690016A92A /* Controllers */,
 				DC89136729E6319D0016A92A /* Info.plist */,
 			);
 			path = PunkAPI_VictorNasser;
@@ -122,6 +130,63 @@
 				DC89137C29E6319D0016A92A /* PunkAPI_VictorNasserUITestsLaunchTests.swift */,
 			);
 			path = PunkAPI_VictorNasserUITests;
+			sourceTree = "<group>";
+		};
+		DC89138929E645690016A92A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC89135D29E6319B0016A92A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC89138A29E645730016A92A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC89138B29E645810016A92A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC89138C29E6458E0016A92A /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		DC89138D29E6459A0016A92A /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				DC89139029E9C2DA0016A92A /* PunkAPIService.swift */,
+				DC89139229E9C2FA0016A92A /* PunkAPIRequest.swift */,
+				DC89139429E9C3B10016A92A /* PunkAPIEndpoint.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		DC89138E29E645A80016A92A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC89135929E6319B0016A92A /* AppDelegate.swift */,
+				DC89135B29E6319B0016A92A /* SceneDelegate.swift */,
+				DC89136229E6319D0016A92A /* Assets.xcassets */,
+				DC89136429E6319D0016A92A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC89138F29E645C10016A92A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC89139129E9C2DA0016A92A /* PunkAPIService.swift in Sources */,
 				DC89135E29E6319B0016A92A /* ViewController.swift in Sources */,
 				DC89135A29E6319B0016A92A /* AppDelegate.swift in Sources */,
+				DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */,
+				DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */,
 				DC89135C29E6319B0016A92A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
