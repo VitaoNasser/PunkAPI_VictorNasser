@@ -11,7 +11,7 @@ import Foundation
 /// Represents unique API endpoint
 @frozen enum PunkAPIEndpoint: String {
     /// Endpoint to get beer info
-    case beer // "beer
+    case beers // "beers
 }
 
 
