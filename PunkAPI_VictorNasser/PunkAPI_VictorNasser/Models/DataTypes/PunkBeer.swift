@@ -30,28 +30,4 @@ struct PunkBeer: Codable {
     let food_pairing: [String]?
     let brewers_tips: String?
     let contributed_by: String?
-    
-//    enum CodingKeys: String, CodingKey {
-//        case id
-//        case name
-//        case tagline
-//        case first_brewed
-//        case description
-//        case image_url
-//        case abv
-//        case ibu
-//        case target_fg
-//        case target_og
-//        case ebc
-//        case srm
-//        case ph
-//        case attenuation_level
-//        case volume
-//        case boil_volume
-//        case method
-//        case ingredients
-//        case food_pairing
-//        case brewers_tips
-//        case contributed_by
-//      }
 }

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC72AEA629F19BCA002C40AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72AEA529F19BCA002C40AA /* Extensions.swift */; };
 		DC89135A29E6319B0016A92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135929E6319B0016A92A /* AppDelegate.swift */; };
 		DC89135C29E6319B0016A92A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135B29E6319B0016A92A /* SceneDelegate.swift */; };
-		DC89135E29E6319B0016A92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135D29E6319B0016A92A /* ViewController.swift */; };
+		DC89135E29E6319B0016A92A /* PunkAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135D29E6319B0016A92A /* PunkAPIViewController.swift */; };
 		DC89136329E6319D0016A92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC89136229E6319D0016A92A /* Assets.xcassets */; };
 		DC89136629E6319D0016A92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC89136429E6319D0016A92A /* LaunchScreen.storyboard */; };
 		DC89137129E6319D0016A92A /* PunkAPI_VictorNasserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89137029E6319D0016A92A /* PunkAPI_VictorNasserTests.swift */; };
@@ -23,6 +24,9 @@
 		DC89139B29E9F0180016A92A /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139A29E9F0180016A92A /* Temperature.swift */; };
 		DC89139D29E9F0330016A92A /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139C29E9F0330016A92A /* Method.swift */; };
 		DC89139F29E9F0550016A92A /* UnitValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89139E29E9F0550016A92A /* UnitValue.swift */; };
+		DCF4631F29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4631E29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift */; };
+		DCF4632129F05CB100D57838 /* BeerListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4632029F05CB100D57838 /* BeerListViewViewModel.swift */; };
+		DCF4632529F05E9000D57838 /* BeerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4632429F05E9000D57838 /* BeerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC72AEA529F19BCA002C40AA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DC89135629E6319B0016A92A /* PunkAPI_VictorNasser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunkAPI_VictorNasser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC89135929E6319B0016A92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC89135B29E6319B0016A92A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC89135D29E6319B0016A92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC89135D29E6319B0016A92A /* PunkAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIViewController.swift; sourceTree = "<group>"; };
 		DC89136229E6319D0016A92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC89136529E6319D0016A92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC89136729E6319D0016A92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +68,9 @@
 		DC89139A29E9F0180016A92A /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		DC89139C29E9F0330016A92A /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		DC89139E29E9F0550016A92A /* UnitValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitValue.swift; sourceTree = "<group>"; };
+		DCF4631E29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIGetAllBeersResponse.swift; sourceTree = "<group>"; };
+		DCF4632029F05CB100D57838 /* BeerListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewViewModel.swift; sourceTree = "<group>"; };
+		DCF4632429F05E9000D57838 /* BeerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +153,7 @@
 		DC89138929E645690016A92A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DC89135D29E6319B0016A92A /* ViewController.swift */,
+				DC89135D29E6319B0016A92A /* PunkAPIViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,11 +161,8 @@
 		DC89138A29E645730016A92A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DC89139629E9D36C0016A92A /* PunkBeer.swift */,
-				DC89139829E9EFE80016A92A /* Ingredient.swift */,
-				DC89139A29E9F0180016A92A /* Temperature.swift */,
-				DC89139C29E9F0330016A92A /* Method.swift */,
-				DC89139E29E9F0550016A92A /* UnitValue.swift */,
+				DCF4631D29F03E0500D57838 /* APIResponseTypes */,
+				DCF4631C29F03DF400D57838 /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		DC89138B29E645810016A92A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DCF4632429F05E9000D57838 /* BeerListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 		DC89138C29E6458E0016A92A /* VIewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DCF4632029F05CB100D57838 /* BeerListViewViewModel.swift */,
 			);
 			path = VIewModels;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				DC89135B29E6319B0016A92A /* SceneDelegate.swift */,
 				DC89136229E6319D0016A92A /* Assets.xcassets */,
 				DC89136429E6319D0016A92A /* LaunchScreen.storyboard */,
+				DC72AEA529F19BCA002C40AA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -202,6 +210,26 @@
 			children = (
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		DCF4631C29F03DF400D57838 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DC89139629E9D36C0016A92A /* PunkBeer.swift */,
+				DC89139829E9EFE80016A92A /* Ingredient.swift */,
+				DC89139A29E9F0180016A92A /* Temperature.swift */,
+				DC89139C29E9F0330016A92A /* Method.swift */,
+				DC89139E29E9F0550016A92A /* UnitValue.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		DCF4631D29F03E0500D57838 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DCF4631E29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,13 +362,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF4631F29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift in Sources */,
 				DC89139D29E9F0330016A92A /* Method.swift in Sources */,
 				DC89139929E9EFE80016A92A /* Ingredient.swift in Sources */,
 				DC89139729E9D36C0016A92A /* PunkBeer.swift in Sources */,
+				DCF4632529F05E9000D57838 /* BeerListView.swift in Sources */,
+				DCF4632129F05CB100D57838 /* BeerListViewViewModel.swift in Sources */,
 				DC89139B29E9F0180016A92A /* Temperature.swift in Sources */,
 				DC89139129E9C2DA0016A92A /* PunkAPIService.swift in Sources */,
-				DC89135E29E6319B0016A92A /* ViewController.swift in Sources */,
+				DC89135E29E6319B0016A92A /* PunkAPIViewController.swift in Sources */,
 				DC89135A29E6319B0016A92A /* AppDelegate.swift in Sources */,
+				DC72AEA629F19BCA002C40AA /* Extensions.swift in Sources */,
 				DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */,
 				DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */,
 				DC89139F29E9F0550016A92A /* UnitValue.swift in Sources */,

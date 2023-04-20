@@ -24,7 +24,6 @@ final class PunkAPIRequest {
     /// Query arguments for API, if any
     private let queryParameters: [URLQueryItem]
 
-    
     /// Constructed url for the api request in string format
     private var urlString: String {
         var string = Constants.baseUrl
@@ -74,4 +73,8 @@ final class PunkAPIRequest {
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
+}
+
+extension PunkAPIRequest {
+    static let listBeersRequests = PunkAPIRequest(endpoint: .beers)
 }
