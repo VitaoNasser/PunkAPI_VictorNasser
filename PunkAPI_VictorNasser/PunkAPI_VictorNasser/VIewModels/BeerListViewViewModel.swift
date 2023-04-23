@@ -36,8 +36,17 @@ extension BeerListViewViewModel: UICollectionViewDataSource, UICollectionViewDel
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = .systemGreen
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PunkAPIBeerCollectionViewCell.cellIdentifier,
+                                                      for: indexPath
+        ) as? PunkAPIBeerCollectionViewCell else {
+            fatalError("Unsupported cell")
+        }
+        let viewModel = PunkAPIBeerCollectionViewCellViewModel(
+            beerName: "Vitao",
+            beerFirstBrewedText: "14/05/1991",
+            beerImageUrl: URL(string: "https://images.punkapi.com/v2/6.png")
+        )
+        cell.configure(with: viewModel)
         return cell
     }
     

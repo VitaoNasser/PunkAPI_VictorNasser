@@ -27,7 +27,8 @@ final class BeerListView: UIView {
         collectionView.isHidden = true
         collectionView.alpha = 0
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(PunkAPIBeerCollectionViewCell.self,
+                                forCellWithReuseIdentifier: PunkAPIBeerCollectionViewCell.cellIdentifier)
         
         return collectionView
     }()

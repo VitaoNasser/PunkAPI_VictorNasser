@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC07419229F5840000433707 /* PunkAPIBeerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07419129F5840000433707 /* PunkAPIBeerCollectionViewCell.swift */; };
+		DC07419429F5882C00433707 /* PunkAPIBeerCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07419329F5882C00433707 /* PunkAPIBeerCollectionViewCellViewModel.swift */; };
 		DC72AEA629F19BCA002C40AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72AEA529F19BCA002C40AA /* Extensions.swift */; };
 		DC89135A29E6319B0016A92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135929E6319B0016A92A /* AppDelegate.swift */; };
 		DC89135C29E6319B0016A92A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89135B29E6319B0016A92A /* SceneDelegate.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC07419129F5840000433707 /* PunkAPIBeerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIBeerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC07419329F5882C00433707 /* PunkAPIBeerCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPIBeerCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		DC72AEA529F19BCA002C40AA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DC89135629E6319B0016A92A /* PunkAPI_VictorNasser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunkAPI_VictorNasser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC89135929E6319B0016A92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				DCF4632429F05E9000D57838 /* BeerListView.swift */,
+				DC07419129F5840000433707 /* PunkAPIBeerCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				DCF4632029F05CB100D57838 /* BeerListViewViewModel.swift */,
+				DC07419329F5882C00433707 /* PunkAPIBeerCollectionViewCellViewModel.swift */,
 			);
 			path = VIewModels;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				DCF4631F29F03E4100D57838 /* PunkAPIGetAllBeersResponse.swift in Sources */,
 				DC89139D29E9F0330016A92A /* Method.swift in Sources */,
 				DC89139929E9EFE80016A92A /* Ingredient.swift in Sources */,
+				DC07419229F5840000433707 /* PunkAPIBeerCollectionViewCell.swift in Sources */,
 				DC89139729E9D36C0016A92A /* PunkBeer.swift in Sources */,
 				DCF4632529F05E9000D57838 /* BeerListView.swift in Sources */,
 				DCF4632129F05CB100D57838 /* BeerListViewViewModel.swift in Sources */,
@@ -376,6 +383,7 @@
 				DC89139529E9C3B10016A92A /* PunkAPIEndpoint.swift in Sources */,
 				DC89139329E9C2FA0016A92A /* PunkAPIRequest.swift in Sources */,
 				DC89139F29E9F0550016A92A /* UnitValue.swift in Sources */,
+				DC07419429F5882C00433707 /* PunkAPIBeerCollectionViewCellViewModel.swift in Sources */,
 				DC89135C29E6319B0016A92A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
